@@ -1,0 +1,30 @@
+qb00;input;Wat heeft de arts of diëtist je aangeraden i.v.m. de inname van vloeistoffen?
+qb01;input;Hoeveel glazen (=200ml) water, melk, fruitsap of frisdrank heb je gisteren in totaal gedronken?
+qb02;input;Hoeveel kopjes (=150ml) koffie of thee heb je gisteren in totaal gedronken?
+qb03;input;Hoeveel kommen (=250ml) soep heb je gisteren gegeten?
+qb04;input;Hoeveel porties (=125gr) yoghurt of pudding heb je gisteren gegeten?
+qb05;input;Hoeveel glazen (=125ml) alcohol heb je gisteren gebruikt?
+qb06;input;Inname van andere vloeistoffen ijsblokjes (=15ml)?
+qb07;input;Inname van andere vloeistoffen porties voedingsdranken?
+qb08;select;Wie kookt er thuis?;jij;partner;een gezinslid;diensten
+qb09;select;Let je op de aanduiding “geen toegevoegd zout - light - zonder toegevoegde suikers” op de verpakkingen?;nooit;zelden;soms;vaak;altijd;ik weet het niet
+qb10;select;Hoe vaak voeg je aan tafel zout toe aan het eten?;nooit;zelden;soms;vaak;altijd;ik weet het niet
+qb11;select;Als jullie aardappelen of groenten klaarmaken, voeg jij, je partner of een familielid, daar extra zout aan toe?;nooit;zelden;soms;vaak;altijd;ik weet het niet
+qb12;select;Welk soort brood heb je vorige week het meest gegeten?;volkoren brood;wit brood;sandwiches en broodjes;stokbrood;patisserie
+qb13;select;Als je koos voor kaas als broodbeleg, welke soort heb je vorige week het vaakst gegeten?;Ik heb vorige week geen kaas gegeten;Franse kaas;zachte kaas;verwerkte kaas;harde kaas
+qb14;select;Als je koos voor vlees als broodbeleg, wat heb je vorige week het vaakst gegeten?;Nee, ik heb vorige week geen vlees gegeten als broodbeleg;vleessalade;worst, vleesbrood, salami;kip, gekookte ham, roast beef;gerookt vlees
+qb15;select;Als je koos voor zoet broodbeleg, wat heb je vorige week het vaakst gegeten?;Nee, ik heb vorige week geen zoet broodbeleg gegeten;confituur;confituur zonder toegevoegde suikers;chocolade;tesoro
+qb16;select;Hoe vaak heb je vorige week groenten gegeten tijdens het middagmaal?;nooit;zelden;soms;vaak;altijd;ik weet het niet
+qb17;select;Welke soort vet / olie gebruikte je vorige week het vaakst bij de bereiding van een maaltijd?;olijfolie;arachideolie;boter;margarine
+qb18;select;Welk soort vlees heb je vorige week het vaakst gegeten?;runds- of kalfsvlees;varkensvlees;worst, gehakt;kip en kalkoen;hert
+qb19;select;Hoe vaak heb je vorige week vis gegeten?;nooit;één keer;twee keer;meer dan twee keer
+qb20;select;Welke soort vis heb je gegeten?;verse zalm of makreel;kabeljauw;schol of tong;garnalen;gerookte vis;vis in blik;andere
+qb21;select;Hoe vaak heb je de afgelopen week groeten gegeten?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb22;select;Hoe vaak heb je vorige week het volgende gegeten gekookte aardappelen?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb23;select;Hoe vaak heb je vorige week het volgende gegeten gefrituurde aardappelen of ovengebakken aardappelen?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb24;select;Hoe vaak heb je vorige week het volgende gegeten volkorenpasta?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb25;select;Hoe vaak heb je vorige week het volgende gegeten normale “gewone pasta”?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb26;select;Hoe vaak heb je vorige week het volgende gegeten volkorenrijst?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb27;select;Hoe vaak heb je vorige week het volgende gegeten normale “witte rijst”?;nooit;minder dan 3 keer per week;3 à 5 keer per week;6 à 7 keer per week
+qb28;select;Hoeveel porties fruit heb je gemiddeld de afgelopen week gegeten?;geen;1 portie per dag;2 porties per dag;3 porties per dag;meer dan 3 porties per dag
+qb29;select;Welke soort nagerecht heb je vaakst genomen de afgelopen week?;geen;vers fruit;yoghurt of pudding;koekjes en patisserie;chocolade

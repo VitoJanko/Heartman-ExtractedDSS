@@ -1,0 +1,14 @@
+q00;select;Quale delle seguenti immagini non è etichettata come "liquido"?;minestra;caffè;acqua;yoghurt;verdure al vapore
+q01;select;Quanto puoi bere ogni giorno?;tanto quanto voglio;2 litri;1 litro;il meno possibile
+q02;select;Il sodio è una parola diversa da sale?;si;no
+q03;select;Quanto sale posso mangiare al giorno?;tanto quanto voglio;10g;6g;2g;nessuno
+q04;select;Come puoi sapere se hai un peso normale?;you measure your weight (kg);misura il tuo peso(kg);misura il tuo peso(kg) e la tua altezza (m);misura la tua vita (cm) e la tua altezza (m)
+q05;select;Perché la circonferenza della tua vita è importante per la tua salute? Rappresenta la quantità di?;grasso tra gli organi;grasso in tutto il corpo;fluido trattenuto nel tuo corpo
+q06;select;Che tipo di grasso è pericoloso per la tua salute?;tutti i tipi di grassi;i grassi saturi;i grassi insaturi;nessuno
+q07;select;In che tipo di cibo non riesci a trovare il grasso saturo?;carne macinata;crema;salsiccia;anatra;salmone
+q08;select;Perché abbiamo bisogno di grassi insaturi?;per mantenere forti le tue ossa;fonte di omega 3;necessario per il tuo sistema immunitario
+q09;select;Cosa non è una fonte di colesterolo?;carne;corpo;latte;frutta
+q10;select;Il colesterolo è sempre dannoso per la salute?;si;no
+q11;select;Quali prodotti contengono molte proteine?;carne;prodotti a base di latte;verdure;frutta;legumi
+q12;select;Esistono diversi tipi di zucchero, quale è quello meno sano?;amido;fruttosio (si trova nella frutta);lattosio (si trova nei prodotti a base di latte);zuccheri aggiunti
+q13;select;Quale attività ha l'effetto maggiore sul livello di zucchero nel sangue?;guardare la TV;dormire;fare giardinaggio;compilare un cruciverba;mangiare

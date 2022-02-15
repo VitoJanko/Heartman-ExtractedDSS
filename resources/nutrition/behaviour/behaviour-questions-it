@@ -1,0 +1,30 @@
+qb00;input;Che consiglio ti ha dato il medico o il dietologo sull'assunzione di liquidi?
+qb01;input;Quanti bicchieri (=200ml) d'acqua, latte, succo di frutta o soda hai bevuto in totale, ieri?
+qb02;input;Quante tazzine (=150 ml) di caffè o thé hai bevuto in totale ieri?
+qb03;input;Quante scodelle (= 250 ml) di zuppa hai bevuto ieri?
+qb04;input;Quante porzioni (= 125 g) di yogurt, budino hai mangiato ieri?
+qb05;input;Quanti bicchieri (= 125 ml) di alcol hai consumato ieri?
+qb06;input;Altra assunzione di liquidi cubetti di ghiaccio (= 15 ml) al giorno
+qb07;input;Altra assunzione di liquidi porzione di bevanda nutrizionale
+qb08;select;Chi cucina a casa?;tu;partner;un membro della famiglia;servizi
+qb09;select;Presti attenzione all'indicazione sui pacchetti come "nessun sale aggiunto - leggero - senza zuccheri aggiunti"?;mai;raramente;a volte;spesso;sempre;Non lo so
+qb10;select;Quanto spesso aggiungi sale al cibo a tavola?;mai;raramente;a volte;spesso;sempre;Non lo so
+qb11;select;Tu, il tuo partner o il tuo familiare, aggiungete sale quando cucinate patate o verdure?;mai;raramente;a volte;spesso;sempre;Non lo so
+qb12;select;Che tipo di pane hai mangiato di più durante la settimana precedente?;pane integrale;pane bianco;sandwiches e panini;Pane francese;pasticcini
+qb13;select;Se hai scelto il formaggio come condimento per il tuo pane, cosa hai mangiato di più durante l'ultima settimana?;Non ho mangiato il formaggio durante l'ultima settimana;formaggio francese;formaggio a pasta molle;formaggio fuso;formaggio a pasta dura
+qb14;select;Se hai scelto la carne come condimento per il tuo pane, cosa hai preso di più durante l'ultima settimana?;No, non ho mangiato carne come condimento durante l'ultima settimana;insalata di carne;salsiccia, polpettone, salame;pollo, prosciutto cotto, roast beef;carne affumicata
+qb15;select;Se hai scelto dei condimenti dolci sul tuo pane, cosa hai preso di più durante la settimana?;No, non ho mangiato condimenti dolci durante l'ultima settimana;marmellata;marmellata senza zucchero aggiunto;cioccolato;tesoro
+qb16;select;Quante volte hai mangiato verdure come contorno con il tuo pranzo durante l'ultima settimana?;mai;raramente;a volte;spesso;sempre;Non lo so
+qb17;select;Che tipo di grassi / oli usi di più durante la cottura di un pasto durante l'ultima settimana?;olio d'oliva;olio di arachidi;burro;Margarina?
+qb18;select;Che tipo di carne hai mangiato di più durante l'ultima settimana?;manzo o vitello;maiale;salsiccia, carne macinata;pollo e tacchino;carne di cervo
+qb19;select;Quante volte hai mangiato pesce durante l'ultima settimana?;mai;una volta;due volte;più di due volte
+qb20;select;Che tipo di pesce hai mangiato?;salmone fresco o sgombro;baccalà;passera di mare o sogliola;gamberi;pesce affumicato;pesce in scatola;altro
+qb21;select;Quante volte hai mangiato verdure a cena la scorsa settimana?;mai;meno di 3 volte a settimana;3-5 volte a settimana;6-7 volte a settimana
+qb22;select;Quanto spesso hai mangiato durante l'ultima settimana patate cotte?;mai;meno di 3 volte a settimana;3-5 volte a settimana;6-7 volte a settimana
+qb23;select;Quanto spesso hai mangiato durante l'ultima settimana patate al forno o fritte?;never;1-3 times per week;3-5 times per week;6-7 times per week
+qb24;select;Quanto spesso hai mangiato durante l'ultima settimana pasta integrale?;never;1-3 times per week;3-5 times per week;6-7 times per week
+qb25;select;Quanto spesso hai mangiato durante l'ultima settimana normale "pasta bianca"?;never;1-3 times per week;3-5 times per week;6-7 times per week
+qb26;select;Quanto spesso hai mangiato durante l'ultima settimana riso integrale?;never;1-3 times per week;3-5 times per week;6-7 times per week
+qb27;select;Quanto spesso hai mangiato durante l'ultima settimana normale riso "bianco"?;never;1-3 times per week;3-5 times per week;6-7 times per week
+qb28;select;Quante porzioni di frutta hai mangiato in media durante l'ultima settimana?;nessuno;1 porzione al giorno;2 porzioni al giorno;3 porzioni al giorno;più di 3 porzioni al giorno
+qb29;select;Che tipo di dessert hai scelto di più durante l'ultima settimana?;nessuna;frutta fresca;yogurt o budino;biscotti e pasticcini;cioccolato

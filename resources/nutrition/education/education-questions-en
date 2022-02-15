@@ -1,0 +1,14 @@
+q00;select;Which of the following options is not labeled as fluid?;soup;coffee;water;yogurt;cooked vegetables
+q01;select;How much are you allowed to drink per day?;as much as I want;2 liter;1 liter;the least as possible
+q02;select;Sodium is a different word for salt?;yes;no
+q03;select;How much salt am I allowed to eat per day?;as much as I want;10g;6g;2g;none
+q04;select;How can you know whether you have a normal weight?;you measure your weight (kg);you measure your weight (kg) and height (m);you measure your waist (cm) and height (m)
+q05;select;Why is the circumference of your waist important for your health? It represents the amount of?;fat between the organs;fat in your whole body;fluid retained in your body
+q06;select;What type of fat is dangerous for your health?;all types of fat;saturated fat;unsaturated fat;none
+q07;select;In what kind of food you cannot find saturated fat?;minced meat;cream;sausage;duck;salmon
+q08;select;Why do we need unsaturated fat?;to keep your bones strong;source of omega 3;necessary for your immune system
+q09;select;What is not a source of cholesterol?;meat;body;milk;fruit
+q10;select;Is cholesterol always bad for your health?;yes;no
+q11;select;Which products contain a lot of proteins?;meat;milk products;vegetables;fruit
+q12;select;There are different types of sugar, which one is the least healthy one?;starch;fructose (found in fruit);lactose (found in milk products);added sugars
+q13;select;Which activity has the largest effect on your blood sugar?;watching TV;sleeping;gardening;filling in a crossword;eating
