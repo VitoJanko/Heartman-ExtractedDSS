@@ -1,3 +1,5 @@
+package dss;
+
 /**
  * All measurements listed in this class must be checked every morning during morning appointment
  * Time of morning appointments is defined in user profile
@@ -38,7 +40,7 @@ public class MeasurementsDSS {
     }
 
     /**
-     * Daily pressure check, during morning appointment
+     * Daily heart rate check, during morning appointment
      *
      * @param hr heart-rate measured
      * @return if False, advice the user to rest for 5 minutes, then remeasure. If false again trigger alert

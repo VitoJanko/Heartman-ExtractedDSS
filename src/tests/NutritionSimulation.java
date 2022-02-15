@@ -14,6 +14,15 @@ import java.util.Scanner;
 import static dss.NutritionDSS.getNutritionQuestions;
 import static dss.NutritionDSS.getNutritionAdvice;
 
+
+
+/**
+ * Run this file for a simulation of intended schedule of answers and questions
+ * First profile is filled.
+ * Then some questions are asked, marked "Q".
+ * On some days, an advice will be given, marked "A".
+ */
+
 public class NutritionSimulation {
 
     public static void main(String[]param) {
