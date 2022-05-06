@@ -1,8 +1,8 @@
 package dss;
 
-import models.FilledQuestion;
-import models.NutritionQuestion;
-import models.NutritionAdvice;
+import models.nutrition.FilledQuestion;
+import models.nutrition.NutritionQuestion;
+import models.nutrition.NutritionAdvice;
 
 import java.util.ArrayList;
 import java.util.HashMap;

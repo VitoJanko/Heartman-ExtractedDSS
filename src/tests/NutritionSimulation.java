@@ -1,8 +1,8 @@
 package tests;
 
-import models.FilledQuestion;
-import models.NutritionAdvice;
-import models.NutritionQuestion;
+import models.nutrition.FilledQuestion;
+import models.nutrition.NutritionAdvice;
+import models.nutrition.NutritionQuestion;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package models;
+package models.nutrition;
 
 /**
  * An object representing an answer of a question asked.

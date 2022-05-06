@@ -1,4 +1,4 @@
-package models;
+package models.nutrition;
 
 public class NutritionQuestion {
     public String ids;
