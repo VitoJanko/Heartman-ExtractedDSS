@@ -1,9 +1,6 @@
 package models.exercise;
 
-package eu.heartman.model;
 
-import lombok.Builder;
-import lombok.Data;
 
 public class HL7 {
     private Boolean takesBetaBlockers;

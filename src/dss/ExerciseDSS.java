@@ -317,8 +317,10 @@ public class ExerciseDSS {
     }
 
 
-    private static Boolean getIncreaseIntensity(StaticParameters staticParameters,
+    private static Boolean getIncreaseIntensity( //StaticParameters staticParameters,
                                          Long startAppDate, Long currentTime, Double maxHeartRate) {
+        /*
+
         List<ExerciseReport> ers = dataLayer.getExerciseReports(startAppDate, currentTime);
         if (ers == null) {
             ers = new ArrayList<>();
@@ -363,6 +365,8 @@ public class ExerciseDSS {
         Boolean prCom = (double) propCom > 0.8 * ers.size();
 
         return (prHR && prAdh) || (prHR && prCom) || (prAdh && prCom);
+        */
+        return false;
     }
 
 
@@ -370,6 +374,7 @@ public class ExerciseDSS {
     public static HL7 getHL7Param(int currentWeek, String physicalCapacity, boolean icd, Double maxWattage,
                                   int maxHeartRate, double restingHeartRate) {
 
+        /*
         Integer lowerHeartRate = null;
         Integer upperHeartRate = null;
         Double maxHR;
@@ -435,6 +440,8 @@ public class ExerciseDSS {
                 .exerciseResistanceFrequency(resistanceDays.length)
                 .build();
         return hl7;
+        */
+        return null;
     }
 
 
