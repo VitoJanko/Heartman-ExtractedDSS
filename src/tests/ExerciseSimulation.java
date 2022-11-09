@@ -16,37 +16,36 @@ public class ExerciseSimulation {
 
     public static void main(String[] args) {
         String capacity = getPhysicalCapacity();
-        HashMap<String, HashMap<String, String>> exerciseData = readExerciseFiles();
-        WeeklyPlan plan = ExerciseDSS.getWeeklyPlan(capacity);
+        int programWeek = 3;
+        HashMap<String, String> exerciseData = readExerciseFiles();
+        List<ExerciseNotification> plan = ExerciseDSS.getWeeklyPlan(programWeek, capacity);
 
 
-        List<ExerciseNotification> notifications =  ExerciseDSS.getNotificationExercise(20, "normal");
-
-        for (ExerciseNotification en : notifications){
+        for (ExerciseNotification en : plan){
             System.out.print(en.executionDay+" ");
-            System.out.print(en.id+" ");
-            System.out.print(en.title+" ");
-            System.out.println(en.text+" ");
+            System.out.println(en.type+" ");
+            String[] ids = ExerciseDSS.getExerciseIds(en.type, capacity);
+            for (String id: ids){
+                String exercise = exerciseData.get(id);
+                System.out.println(exercise);
+            }
+
         }
 
-        for (Exercise ex : plan.exerciseResistanceWeeklyPlan) {
-            showExercise(ex, true, exerciseData);
-        }
 
-        System.out.println(notifications);
     }
 
-    private static HashMap<String, HashMap<String, String>> readExerciseFiles() {
+    private static HashMap<String, String> readExerciseFiles() {
         HashMap<String, String> enduranceLow = readExercise("resources/exercise/endurance-low");
         HashMap<String, String> enduranceNormal = readExercise("resources/exercise/endurance-normal");
         HashMap<String, String> resistanceLow = readExercise("resources/exercise/resistance-low");
         HashMap<String, String> resistanceHigh = readExercise("resources/exercise/resistance-normal");
-        HashMap<String, HashMap<String, String>> metaMap = new HashMap<String, HashMap<String, String>>();
-        metaMap.put("endurance-low", enduranceLow);
-        metaMap.put("endurance-normal", enduranceNormal);
-        metaMap.put("resistance-low", resistanceLow);
-        metaMap.put("resistance-normal", resistanceHigh);
-        return metaMap;
+        HashMap<String, String> allExercises = new  HashMap<String, String>();
+        allExercises.putAll(enduranceLow);
+        allExercises.putAll(enduranceNormal);
+        allExercises.putAll(resistanceHigh);
+        allExercises.putAll(resistanceLow);
+        return allExercises;
     }
 
     private static String getPhysicalCapacity() {
