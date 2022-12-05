@@ -38,13 +38,23 @@ public class ExerciseDSS {
      * @return physical capacity; can be "low" or "normal"
      */
     public static String getPhysicalCapacity(Double maxWattage, Double weight, Double sixMinuteWalkDistance ) {
-        if (maxWattage != null) {
+/*        if (maxWattage != null) {
             return (maxWattage / weight >= 1 ? "normal" : "low");
         } else if (sixMinuteWalkDistance != null) {
             return (sixMinuteWalkDistance >= 300 ? "normal" : "low");
         } else {
             return "low";
+        }*/
+        if ((maxWattage != null) && (maxWattage / weight < 1)) {
+            return "low";
         }
+        if ((sixMinuteWalkDistance != null) && (sixMinuteWalkDistance < 300)) {
+            return "low";
+        }
+        if ((maxWattage == null) && (sixMinuteWalkDistance == null)) {
+            return "low";
+        }
+        return "high";
     }
 
 
